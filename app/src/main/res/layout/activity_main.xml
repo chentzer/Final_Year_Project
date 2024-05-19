@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Programmer Name: Liew Chen Tzer-->
+<!--Program Name: activity_main.xml-->
+<!--Description: Main Activity Design-->
+<!--First Written on: Tuesday, 1-Feb-2022-->
+<!--Edited on: Thursday, 7-April-2022-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/flashingScreen"
+        android:layout_width="match_parent"
+        android:layout_height="648dp">
+
+        <Button
+            android:id="@+id/MenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/menu" />
+
+        <ImageButton
+            android:id="@+id/SOSButton"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            android:contentDescription="@string/redsosbutton"
+            app:srcCompat="@drawable/sos_button_red" />
+
+        <TextView
+            android:id="@+id/Emergency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SOSButton"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:text="@string/press_the_button_in_case_of_emergency"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/TimerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Timer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:text="@string/requesting_help_in"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/Timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/SOSButton"
+            android:layout_centerHorizontal="true"
+            android:text="@string/timer"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="@string/cancel"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/cameraButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="27dp"
+        android:layout_toStartOf="@+id/cancelButton"
+        android:adjustViewBounds="true"
+        android:background="@drawable/roundbtn"
+        android:contentDescription="@string/button_to_open_camera_app"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/camera"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/phoneButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="27dp"
+        android:layout_toEndOf="@+id/cancelButton"
+        android:adjustViewBounds="true"
+        android:background="@drawable/roundbtn"
+        android:contentDescription="@string/button_to_open_camera_app"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/phone"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Programmer Name: Liew Chen Tzer-->
+<!--Program Name: activity_instruction.xml-->
+<!--Description: Instruction design-->
+<!--First Written on: Tuesday, 1-Feb-2022-->
+<!--Edited on: Thursday, 7-April-2022-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="30sp"
+                android:textColor="#808080"
+                android:layout_gravity="center"
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/instructions"
+                android:textAllCaps="true"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffc107"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="7dp"
+                    android:text="@string/_1"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:id="@+id/instruction1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#4caf50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="7dp"
+                    android:text="@string/_2"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:id="@+id/instruction2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#2196f3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="7dp"
+                    android:text="@string/_3"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:id="@+id/instruction3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#e91e63"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="7dp"
+                    android:text="@string/_4"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:id="@+id/instruction4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="#444444"
+        android:text="@string/back"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Emergency SOS Button</string>
+    <string name="redsosbutton">redSOSButton</string>
+    <string name="press_the_button_in_case_of_emergency">Press the button in case of emergency</string>
+    <string name="menu">Menu</string>
+    <string name="instructions">Instructions</string>
+    <string name="view_registered_numbers">View Registered Numbers</string>
+    <string name="register_new_number">Register New Number</string>
+    <string name="delete_registered_number">Delete Registered Number</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="back">Back</string>
+    <string name="register">REGISTER</string>
+    <string name="you_can_register_up_to_5_contact_numbers">(You can register up to 5 contact numbers)</string>
+    <string name="name">Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="save">Save</string>
+    <string name="delete">DELETE</string>
+    <string name="namedot">Name:</string>
+    <string name="contact_numberdot">Contact Number:</string>
+    <string name="_5">5</string>
+    <string name="registered_numbers">REGISTERED NUMBERS</string>
+    <string name="cancel">CANCEL HELP</string>
+    <string name="button_to_open_camera_app">Button to open camera app</string>
+    <string name="requesting_help_in">Requesting Help in</string>
+    <string name="timer">Timer</string>
+    <string name="enter_emergency_line">Enter Emergency Line</string>
+    <string name="set_emergency_line">SET EMERGENCY LINE</string>
+    <string name="soswidget">sosWidget</string>
+</resources>

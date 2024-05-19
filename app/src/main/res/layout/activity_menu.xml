@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Programmer Name: Liew Chen Tzer-->
+<!--Program Name: activity_menu.xml-->
+<!--Description: Menu design-->
+<!--First Written on: Tuesday, 1-Feb-2022-->
+<!--Edited on: Thursday, 7-April-2022-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/InstructionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:text="@string/instructions"
+        android:textSize="11sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/VRNButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/view_registered_numbers"
+        android:textSize="11sp"
+        app:layout_constraintTop_toBottomOf="@+id/InstructionsButton"
+        tools:layout_editor_absoluteX="93dp" />
+
+    <Button
+        android:id="@+id/RNNButton"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_new_number"
+        android:textSize="11sp"
+        app:layout_constraintTop_toBottomOf="@+id/VRNButton"
+        tools:layout_editor_absoluteX="97dp" />
+
+    <Button
+        android:id="@+id/DRNButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_registered_number"
+        android:textSize="11sp"
+        app:layout_constraintTop_toBottomOf="@+id/RNNButton"
+        tools:layout_editor_absoluteX="93dp" />
+
+    <Button
+        android:id="@+id/SELButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SET EMERGENCY LINE"
+        android:textSize="11sp"
+        app:layout_constraintTop_toBottomOf="@+id/DRNButton"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Programmer Name: Liew Chen Tzer-->
+<!--Program Name: activity_register_new_number.xml-->
+<!--Description: Register New Number design-->
+<!--First Written on: Tuesday, 1-Feb-2022-->
+<!--Edited on: Thursday, 7-April-2022-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@color/grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"/>
+    <TextView
+        android:textStyle="italic"
+        android:textColor="@color/grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/you_can_register_up_to_5_contact_numbers"/>
+    <EditText
+        android:textColor="#000000"
+        android:textColorHint="#898d8d"
+        android:id="@+id/SetEmergencyLine"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:inputType="text"/>
+    <EditText
+        android:textColor="#000000"
+        android:textColorHint="#898d8d"
+        android:id="@+id/editText2"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/contact_number"
+        android:inputType="phone"/>
+    <Button
+        android:textColor="#ffffff"
+        android:id="@+id/RNNSaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/save"
+        android:backgroundTint="#444444"/>
+</LinearLayout>

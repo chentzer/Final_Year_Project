@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269843935373",
+    "project_id": "sos-emergency-button",
+    "storage_bucket": "sos-emergency-button.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269843935373:android:399b0521a1e26949aef2c4",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269843935373-ed612s7ckth494maifp2q4urhs56r3e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA11x9opJ25268eDCHQs1pix5bkztgpx-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269843935373-ed612s7ckth494maifp2q4urhs56r3e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
